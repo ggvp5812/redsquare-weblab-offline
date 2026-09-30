@@ -1,0 +1,4 @@
+*.exe
+*.syso
+.DS_Store
+Thumbs.db

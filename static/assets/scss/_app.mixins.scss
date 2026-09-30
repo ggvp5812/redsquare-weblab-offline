@@ -1,0 +1,59 @@
+@mixin clearfix() 
+{
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin transition($transition) 
+{
+  -webkit-transition: $transition;
+          transition: $transition;
+}
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+          box-shadow: $shadow;
+}
+
+
+@mixin button-variant($color, $background, $border) {
+  color: $color !important;
+  background-color: $background;
+  border-color: $border;
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  .open .dropdown-toggle{
+    color: $color !important;
+    background-color: darken($background, 5%);
+        border-color: darken($border, 8%);
+  }
+  &:active,
+  &.active,
+  .open .dropdown-toggle {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      background-color: $background;
+          border-color: $border
+    }
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+}

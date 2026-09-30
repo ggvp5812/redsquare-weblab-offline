@@ -1,0 +1,218 @@
+$bg-header-style2:              url(img/header_bg20.jpg);
+$text-color-header-style2:      #d9f3fb;
+$bg-side-style2:                url(img/sider_bg.jpg);
+$text-color-side-style2:        #FFFFFF;
+$hover-color-side-style2:       #9B0000;
+$line-color-side-style2:        #000000;
+$bg-title-style2:               url(img/title_bg.jpg);
+$text-color-title-style2:       #FFFFFF;
+$line-color-title-style2:       #9B0000;
+$hover-color-title-style2:      transparent;
+$bg-content-style2:             url(img/content_bg.jpg);
+$text-color-content-style2:     #FFFFFF;
+$line-color-content-style2:     #9B0000;
+
+$md-slider-height: 20px;
+$md-slider-width:450px;
+$md-slider-track-bg :#999;
+$md-slider-thumb :20px;
+$md-slider-thumb-label:28px;
+
+
+$brand-primary:         #7266ba;
+$brand-info:            #23b7e5;
+$brand-success:         #27c24c;
+$brand-warning:         #fad733;
+$brand-danger:          #f05050;
+$brand-light:           #edf1f2;
+$brand-dark:            #3a3f51;
+$brand-black:           #1c2b36; 
+
+$body-width:1024px;
+$body-height:678px;
+$body-cut-htight:10px;
+
+$text-color:            #58666e;
+$text-muted:            lighten($text-color, 25%);
+$body-bg:               lighten($brand-light, 1%);
+
+
+$font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, SimHei;
+$font-family-serif:       "Fantasy",Georgia, "Times New Roman", Times, serif; 
+$font-family-monospace:    Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base:        $font-family-sans-serif;
+
+
+$font-size-base:          14px;
+$font-size-lg:            ceil($font-size-base * 1.23); // ~20px
+$font-size-md:            ceil($font-size-base * 1.14); // ~16px
+$font-size-sm:            ceil($font-size-base * 0.92); // ~13px
+$font-size-xs:            ceil($font-size-base * 0.85); // ~12px
+
+$link-color:              darken($text-color, 15%);
+$link-hover-color:        darken($text-color, 30%);
+
+$border-radius-base:      2px;
+$border-color:		      darken($brand-light, 5%);
+
+$line-height-base:        1.42857143; // 20/14
+$line-height-computed:    floor($font-size-base * $line-height-base); // ~20px
+$icon-css-prefix:         i;
+
+$btn-default-color:              $text-color;
+$btn-default-bg:                 lighten($brand-light, 5%);
+$btn-default-border:             $border-color;
+$btn-border-radius:              $border-radius-base;
+
+$input-border:                   darken($border-color, 5%);
+$input-border-focus:             $brand-info;
+$input-border-radius:            $border-radius-base;
+
+$panel-bg:                    	 #fff;
+$panel-border:                	 $border-color;
+$panel-heading-border:           lighten($border-color, 5%);
+$panel-list-group-border:        lighten($border-color, 5%);
+$panel-border-radius:         	 $border-radius-base;
+$panel-heading-bg:            	 lighten($brand-light, 3%);
+$panel-footer-bg:             	 #fff;
+
+$nav-bg:                         lighten($brand-light, 3%);
+$badge-bg:                       darken($brand-light, 10%);
+
+$list-group-item-border:         lighten($border-color, 3%);
+$list-group-item-hover:          lighten($brand-light, 3%);
+$list-group-select-color:        lighten($brand-light, 2%);
+$list-group-active-color:        $brand-info;
+
+$table-border-color:             lighten($border-color, 4%);
+$table-striped-color:            lighten($brand-light, 4.5%);;
+
+$arrow-width:         			     8px;
+$arrow-color:         			     #fff;
+$arrow-outer-width:   			     ($arrow-width + 1);
+$arrow-outer-color:   			     rgba(0,0,0,.1);
+
+$switch-width:                   35px;
+$switch-height:                  20px;
+$switch-md-width:                40px;
+$switch-md-height:               24px;
+$switch-lg-width:                50px;
+$switch-lg-height:               30px;
+
+$app-aside-width:                230px;
+$app-aside-nav-height:           40px;
+$app-aside-folded-width:         60px;
+$app-aside-folded-nav-height:    50px;
+
+$app-header-height:              122px;
+$app-header-md-height:			 120px;
+
+$app-title-height:               100px;
+
+$scroll-bar-width:               17px;
+$butterbar-height:               3px;
+$butterbar-time:                 0.75s;
+
+
+// profile Buttons 
+// -------------------------
+$profile-but-width 				: 30px;
+$profile-but-height				: 30px;
+
+// profile Light 
+// -------------------------
+$profile-light-width			: 50px;
+$profile-light-height			: 49px;
+$profile-logo-width			    : 62px;
+$profile-logo-height			: 66px;
+
+
+// profile Slider 
+// -------------------------
+$profile-slider-border-radius   : 8px;
+$profile-slider-width	        : 18px;
+$profile-slider-height	        : 18px; 
+
+// profile   
+// -------------------------
+
+$title-box-height : 5px;
+$title-box-width  : 70px;
+$title-box-text-center-left : 50%;
+$title-box-text-center-margin-left  : -30px;
+
+//update body
+$div-softupdate-body-height:360px;
+$div-softupdate-body-width:620px;
+
+//keyboard
+//--------------------------
+$keyboard-hotkey-title-height :120px;
+$keyboard-hotkey-connect-height: 283px;
+$keyboard-active-panle-content-width: 560px;
+$keyboard-active-panle-content-padding-top: 2px;
+$keyboard-active-panle-height: 283px;
+$keyboard-active-content-item-width: 100px;
+$keyboard-active-content-item-height: 100px;
+$keyboard-active-content-item-margin-top: 17px;
+$keyboard-active-content-item-margin-left: 30px;
+$keyboard-tab-height:150px;
+$keyboard-tab-padding-top:5px;
+$keyboard-tab-margin-bottom:5px;
+$keyboard-active-place-item-margin-top:30px;
+$keyboard-active-place-item-margin-left:18px;
+
+$base-mute-color:               #ace4f5;
+$text-warning:                  #FF8C00;
+$base-padding:                  15px;
+$profile-name-width:            110px;
+$bg-head-title-height:			34px;
+$app-content-profile-h      : 103px;
+
+
+//主窗體Size
+$window-width   : 1024px;
+$window-height  : 678px;
+//內容Size
+$main-header-height     : 34px;
+$main-nav-width         : 220px;
+$main-nav-height        : $window-height - $main-header-height;
+$main-content-width     : $window-width - $main-nav-width;
+$main-content-height    : $window-height - $main-header-height; 
+$app-content-profile-h      : 103px;
+$app-content-panel-h        : $window-height - $main-header-height - $app-content-profile-h;
+$app-content-panel-padding  : 15px 5px 40px 5px;
+$new-page-color             : red;
+
+//新UI Size
+$new-nav-width: 66px;
+$new-content-width: $window-width - $new-nav-width;
+$new-content-height: $window-height - $main-header-height;
+
+
+// Style 2
+$app-aside-width : 60px;
+$app-profile-width: 250px;
+
+//button color 按鈕顏色；
+$button-translucent-color-defaule: rgba(86, 86, 86, 0.4);
+$button-font-translucent-color-defaule: rgba(206, 206, 206, 0.8);
+$button-border-translucent-color-defaule: rgba(108, 108, 108, 0.4);
+
+$active-button-color-defaule: rgba(144,1,1,1);
+$active-button-font-color-defaule: #fff;
+$active-button-border-color-defaule: #ab0000;
+
+// dialog-btn
+$dialog-input-bg: rgba(153, 14, 14, 0.1);
+$dialog-input-border: rgba(153,14,14,1);
+
+//dialog-macro-btn
+$dialog-macro-btn-bg: rgba(153, 14, 14, 0.5);
+$dialog-macro-btn-border: rgba(153,14,14,1);
+
+
+// $dialog-btn-color-confirm: linear-gradient(rgba(168,3,3,1));
+// $dialog-btn-color-confirm-border: rgba(123,12,38,1);
+// $dialog-btn-color-cancel: linear-gradient(rgba(52,52,52,1),rgba(43,43,43,1));
+// $dialog-btn-color-cancel-border: rgba(66,66,66,1);
